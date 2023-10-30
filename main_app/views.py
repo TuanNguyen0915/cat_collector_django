@@ -36,6 +36,7 @@ class CatUpdate(UpdateView):
 
 
 class CatDelete(DeleteView):
+
     model = Cat
     success_url = "/cats/"
 
